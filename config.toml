@@ -3,3 +3,18 @@ languageCode = "en-us"
 title = "tgelez"
 theme = "beautifulhugo"
 enableEmoji = true
+
+[Params]
+  subtitle = "A hugo site"
+  logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+
+[[menu.main]]
+    name = "Blog"
+    url = "blog"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 3
